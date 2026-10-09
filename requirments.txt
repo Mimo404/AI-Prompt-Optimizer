@@ -1,0 +1,26 @@
+# LLM inference
+
+torch
+transformers==4.52.4
+accelerate
+
+# Dataset and embeddings
+
+datasets
+sentence-transformers
+faiss-cpu
+
+# Prompt engineering and structured output
+
+langchain
+langchain-core
+
+# API backend
+
+fastapi
+uvicorn
+
+# Web interface and public tunneling
+
+streamlit
+pyngrok
