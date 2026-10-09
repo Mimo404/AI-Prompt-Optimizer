@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
